@@ -1,0 +1,40 @@
+.tasks-cards {
+	width: 100%;
+	height: auto;
+	padding: 20px;
+	padding-left: 40px;
+	background-color: aqua;
+	border-radius: 50px;
+	margin-top: 5px;
+	box-shadow: 1px 1px 1px 1px rgb(146, 146, 146);
+}
+
+.tasks-cards:active {
+	box-shadow: inset 0px 2px 5px 2px rgb(103, 103, 103);
+}
+
+.tasks-cards__title {
+	width: 100%;
+	height: auto;
+	font-size: 18px;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	margin-bottom: 5px;
+}
+
+.tasks-cards__status {
+	font-size: 16px;
+}
+
+.waiting {
+	color: rgb(173, 173, 173)
+}
+
+.progress {
+	color: rgb(0, 68, 255)
+}
+
+.finished {
+	color: rgb(0, 211, 35)
+}
